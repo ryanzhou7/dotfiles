@@ -2,7 +2,7 @@
 	name = Ryan
 	email = 5668783+ryanzhou7@users.noreply.github.com
 [core]
-  editor = vi
+  editor = code
   excludesfile = ~/.gitignore
   autocrlf = input
 [color]
@@ -11,7 +11,7 @@
   interactive = auto
   status = auto
 [init]
-  defaultBranch = master
+  defaultBranch = main
 [web]
   browser = google-chrome
 [credential]
@@ -22,13 +22,13 @@
   tool = kdiff3
 [difftool]
   prompt = false
-[alias]
-  c = commit
-  ca = commit -a
-  cm = commit -m
-  cam = commit -am
-  d = diff
-  dc = diff --cached
-  l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+# [alias]
+  # c = commit
+  # ca = commit -a
+  # cm = commit -m
+  # cam = commit -am
+  # d = diff
+  # dc = diff --cached
+  # l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
 [pull]
 	rebase = true
